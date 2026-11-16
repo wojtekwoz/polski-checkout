@@ -1,0 +1,31 @@
+{
+  "name": "polski-checkout",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Self-hosted Stripe checkout for Polish sellers: NIP validation, company autofill from the MF VAT White List / GUS, Stripe Checkout, invoicing hooks (Fakturownia, iFirma).",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "stripe": "^23.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
